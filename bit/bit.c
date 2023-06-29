@@ -11,11 +11,11 @@
 返回生成的掩码。
 */
 unsigned int get_mask(int m, int n) {
-	unsigned int mask = ~0; // B1111 1111
+	//	unsigned int mask = ~0; // B1111 1111
+   	// mask = mask << m;
+    unsigned int mask = (1 << (n - m + 1)) - 1;
     mask = mask << m;
-    unsigned int helper_mask = (1 << (n - m + 1)) - 1;
-    helper_mask = helper_mask << m;
-    mask = mask & helper_mask;
+    //mask = mask & helper_mask;
     return mask;
 }
     
@@ -26,6 +26,6 @@ int main(void) {
 	unsigned int mask = get_mask(4, 6); // start digit, end digit
 	printf("mask = %u\n", mask);
 	num = num & mask;
-	printf("num 4~6bit = %u\n", num);
+	printf("num 4 ~ 6bit = %u\n", num);
 	return 0;
 }
