@@ -3,8 +3,6 @@
 
 #include "proj.h"
 
-//int i = 10;
-
 int i = 10;
 
 int main(void) {

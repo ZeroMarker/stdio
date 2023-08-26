@@ -5,7 +5,6 @@ Usage:
 1. Enter 'a' for addition, 's' for subtraction, 'm' for multiplication, 'd' for division.
 2. Enter two numbers to perform the operation.
 */
-
 #include <stdio.h>
 #include <stdlib.h>
 
