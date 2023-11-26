@@ -2,8 +2,8 @@
 // Created by ttft3 on 2023/11/25.
 //
 
-#include <stdio.h>
 #include <stdarg.h>
+#include <stdio.h>
 
 void printNumbers(int num, ...) {
     va_list argList;
@@ -21,4 +21,3 @@ int main() {
     printNumbers(3, 1, 2, 3);
     return 0;
 }
-

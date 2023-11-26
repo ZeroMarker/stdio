@@ -1,5 +1,5 @@
-define.o: define.c
-	gcc -o define.o define.c
+define: define.c
+	gcc define.c
 clean:
-	rm *.o
+	rm *.exe *.o
 # make clean

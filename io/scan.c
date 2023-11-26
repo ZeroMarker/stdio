@@ -15,9 +15,9 @@ int main() {
     printf("%s\n", str);
     // access out of border
 
-    while(1) {
+    while (1) {
         int ret = scanf("%d", &i);
-        if(ret != 1) {
+        if (ret != 1) {
             printf("Enter error\n");
             break;
         }
@@ -25,7 +25,7 @@ int main() {
     }
     scanf("%d", &i);
     scanf("%*c%c", &ch);
-    //抑制符 吃掉空白字符
+    // 抑制符 吃掉空白字符
     printf("i = %d, ch = %d\n", i, ch);
     printf("%d\n", EOF);
     return 0;
