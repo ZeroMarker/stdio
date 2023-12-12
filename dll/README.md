@@ -6,6 +6,8 @@
 
 [【底层】动态链接库(dll)是如何工作的？](https://www.bilibili.com/video/BV1vB4y1V7gR/)
 
+[【官方双语】DLL是什么？ #电子速谈](https://www.bilibili.com/video/BV1RF411E7p5/)
+
 .got
 
 Global Offset Table
