@@ -2,11 +2,11 @@
 // Created by ttft3 on 2023/7/23.
 //
 #include <stdio.h>
-#define STRSIZE 3
+#define STR_SIZE 3
 int main() {
     int i;
     float f;
-    char ch, str[STRSIZE];
+    char ch, str[STR_SIZE];
     printf("Please Enter:\n");
     scanf("%d%f", &i, &f);
     printf("i = %d, f = %f\n", i, f);

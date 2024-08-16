@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 void str_connect(void);
-void bools(void);
+void bool(void);
 void escape(void);
 
 int main(void) {
     str_connect();
-    bools();
+    bool();
     escape();
     return 0;
 }
@@ -18,7 +18,7 @@ void str_connect(void) {
         "World"
         "!\n");
 }
-void bools(void) {
+void bool(void) {
     bool qed = 3 > 2 ? true : false;
     if (qed) {
         printf("bool var\n");
