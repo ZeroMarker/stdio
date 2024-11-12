@@ -2,8 +2,8 @@
 // Created by ttft3 on 2023/7/23.
 //
 #include <stdio.h>
-#include <windows.h>    // windows
-// #include <unistd.h>     // linux
+// #include <windows.h>    // windows
+#include <unistd.h>     // linux
 #define STRSIZE 32
 #define SEC_YEAR (365LL * 24LL * 60LL * 60LL)
 
@@ -28,7 +28,7 @@ int main() {
     // printf("[%s:%d]", __FUNCTION__ , __LINE__);
     // line buffer
     printf("[%s:%d]\n", __FUNCTION__, __LINE__);
-    sleep(5);
+    sleep(3);
     printf("[%s:%d]\n", __FUNCTION__, __LINE__);
 
     return 0;
