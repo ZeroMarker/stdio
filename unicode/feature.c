@@ -1,29 +1,12 @@
-#include <stdbool.h>
 #include <stdio.h>
 
-void str_connect(void);
-void bool(void);
 void escape(void);
 
 int main(void) {
-    str_connect();
-    bool();
     escape();
     return 0;
 }
 
-void str_connect(void) {
-    printf(
-        "Hello, "
-        "World"
-        "!\n");
-}
-void bool(void) {
-    bool qed = 3 > 2 ? true : false;
-    if (qed) {
-        printf("bool var\n");
-    }
-}
 void escape(void) {
     float salary;
 
