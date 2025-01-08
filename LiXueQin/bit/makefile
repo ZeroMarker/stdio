@@ -1,5 +1,7 @@
 bit: bit.c
-	gcc -o -g bit bit.c && ./bit
+	gcc bit.c -o bit -g 
+run:
+	./bit
 clean:
 	rm bit
 
