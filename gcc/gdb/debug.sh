@@ -12,4 +12,5 @@ strings bit
 
 xxd bit
 
+strace ./a.out
 

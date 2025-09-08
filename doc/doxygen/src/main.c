@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * \author Mark Chen
- * \brief Nothing
- * \category site
+ * @author Mark Chen
+ * @brief Nothing
+ * @category site
  */
 int main() {
     printf("Hello\n");
